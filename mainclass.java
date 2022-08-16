@@ -12,7 +12,7 @@ class mainclass {
     public static void main(String args[]) throws FileNotFoundException, IOException {
 
         // String file_name;
-
+        // try kar rhi hu
         System.out.println("\n\n**********************************************************************************");
         System.out.println("\t\t EXAMINATION SITTING ARRANGEMENT SYSTEM \t\t\t\t");
         System.out.println("**********************************************************************************");
