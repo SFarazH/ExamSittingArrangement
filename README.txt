@@ -1,33 +1,13 @@
-Problem Statement : 
->>>> Inputs : Admin i/o , 
-2 types of csv txt files : 
-1)Roll Lists of sections appearing for exam. 
-(User I/P ki kitne sections h >> while/for loop >> data read for each file )
-2)Classes available(Total classes ) plus class occupancy.<class no,no of seats>
+Here are few instructions and a guide for accessing the code.
 
->>>> Outputs : In csv file that can be openend in excel.
-1. Make a file (write/append mode).
-2. Write csv data in file for classes in foll way : 
+User is supposed to input 2 types of files
+They are:-
+1. Class Occupancy file ->It will include class,occupancy in a comma separate way.
+The file should be .txt extension file. 
 
-Room No: 108
-Seat No.,Roll No. of Student 1 from sec A,Roll No. of Student from sec B
-001,5A1,4A1
-.
- .
- .
- .
- 025,5A25,4A25
- .
- Class No. : 02
- 001,5A26,4A26
+2.Section file ->It will contain roll numbers of the students to be seated. 
+The file name should be section_name.txt
 
- 015,5A40,4A40
- 016,5B01,4A41
- .
- .
- .
- .
- --------------------
-
- BufferFileInput = .....(new (".txt"))
+For saving the files in the system a dialogue would pop up after inputing the files.
+ Here you are expected to enter the file name with txt extension.
  
